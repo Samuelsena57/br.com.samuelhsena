@@ -6,7 +6,7 @@ import br.com.samuelhsena.domain.Funcionario;
 
 public interface FuncionarioService {
 	
-void salvar(Funcionario funcionario);
+	void salvar(Funcionario funcionario);
 	
 	void editar(Funcionario funcionario);
 	

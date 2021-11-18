@@ -6,7 +6,7 @@ import br.com.samuelhsena.domain.Departamento;
 
 public interface DepartamentoService {
 	
-void salvar(Departamento departamento);
+	void salvar(Departamento departamento);
 	
 	void editar(Departamento departamento);
 	
@@ -14,6 +14,9 @@ void salvar(Departamento departamento);
 	
 	Departamento buscarPorId(Long id);
 	
-	List<Departamento> buscartodos();
+	List<Departamento> buscarTodos();
+
+	boolean departamentoTemCargos(Long id);
+
 
 }

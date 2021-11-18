@@ -16,5 +16,4 @@ public interface DepartamentoDao {
 	
 	List<Departamento> findAll();
 	
-	
 }
